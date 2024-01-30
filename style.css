@@ -1,0 +1,141 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Navigation Styles */
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav h1 {
+    display: inline;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 50px 0; /* Reduced height */
+}
+
+header h1 {
+    color: #333;
+}
+
+/* About Me Section Styles */
+#about {
+    background: #f9f9f9; /* Background color */
+    padding: 50px 0;
+}
+
+#about .container {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Projects Section Styles */
+#projects {
+    padding: 50px 0;
+}
+
+.project {
+    margin-bottom: 40px; /* Increased margin */
+}
+
+.project h3 {
+    color: #333;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.project a {
+    display: inline-block;
+    margin-right: 10px;
+    background: #007bff;
+    color: #fff;
+    padding: 8px 15px; /* Increased padding */
+    border-radius: 5px;
+}
+
+/* Coding Challenges Section Styles */
+#challenges {
+    background: #f9f9f9;
+    padding: 50px 0;
+}
+
+.challenge {
+    margin-bottom: 40px; /* Increased margin */
+}
+
+.challenge h3 {
+    color: #333;
+}
+
+/* Contact Me Section Styles */
+#contact {
+    padding: 50px 0;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social {
+    padding: 0;
+}
+
+.social li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social a {
+    color: #fff;
+    font-size: 20px;
+}
